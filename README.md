@@ -86,13 +86,13 @@ Follow these steps to set up and run the AI Insight Dashboard on your machine:
 
 **Step 1: Clone the Repository**
 
-git clone https://github.com/<your-username>/ai-insight-dashboard.git
-cd ai-insight-dashboard
+git clone https://github.com/<your-username>/ai-insight-dashboard.git  
+cd ai-insight-dashboard 
 
 **Step 2: Set Up Python Virtual Environment**
 
-python3 -m venv venv
-source venv/bin/activate
+python3 -m venv venv  
+source venv/bin/activate  
 
 **Step 3: Install Python Dependencies**
 
@@ -100,7 +100,7 @@ pip install -r requirements.txt
 
 **Step 4: Install Node.js Dependencies**
 
-npm install
+npm install  
 
 **Step 5: Install Ollama**
 
