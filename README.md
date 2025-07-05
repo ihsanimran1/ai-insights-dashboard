@@ -6,6 +6,8 @@
 **Concept:** Build a local AI-powered tool that fetches and analyzes financial news articles, PDFs, and URLs to provide critical reasoning insights for trading and consulting purposes.  
 **Goal:** Help users make informed financial and strategic decisions by delivering high-quality, structured AI analysis, while keeping all AI computation for privacy.  
 
+![Demo](assets/APP-demo.gif)
+
 ---
 
 ## 🔍 Market Research
@@ -127,4 +129,3 @@ node fetch_page.js "article url"
 ![URL mode](assets/URL%20mode.png)
 ![PDF mode](assets/PDF%20mode.png)
 
-![Demo](assets/Demo.gif)
