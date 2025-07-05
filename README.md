@@ -1,8 +1,6 @@
 # 📈 AI Insights Dashboard
 
 ## 📅 Initial Concept
-**Date:** 2025-05-07  
-**Time:** 10:00 AM  
 **Concept:** Build a local AI-powered tool that fetches and analyzes financial news articles, PDFs, and URLs to provide critical reasoning insights for trading and consulting purposes.  
 **Goal:** Help users make informed financial and strategic decisions by delivering high-quality, structured AI analysis, while keeping all AI computation for privacy.  
 
@@ -34,12 +32,12 @@
 
 | Task                      | Start Date | End Date   | Status       |
 |---------------------------|------------|------------|--------------|
-| Requirement Gathering     | 2025-07-01 | 2025-07-05 | ✅ Complete   |
-| Backend Scraper (Puppeteer)| 2025-07-02 | 2025-07-05 | ✅ Complete   |
-| Streamlit UI              | 2025-07-04 | 2025-07-05 | ✅ Complete   |
-| Ollama AI Integration     | 2025-07-06 | 2025-07-05 | ✅ Complete   |
-| Testing & Debugging       | 2025-07-07 | 2025-07-06 | ✅ Complete   |
-| Packaging (Docker)        | 2025-07-08 | 2025-07-10 | ⏳ In Progress|
+| Requirement Gathering     | 2025-07-05 | 2025-07-05 | ✅ Complete   |
+| Backend Scraper (Puppeteer)| 2025-07-05 | 2025-07-05 | ✅ Complete   |
+| Streamlit UI              | 2025-07-05 | 2025-07-05 | ✅ Complete   |
+| Ollama AI Integration     | 2025-07-05 | 2025-07-05 | ✅ Complete   |
+| Testing & Debugging       | 2025-07-05 | 2025-07-06 | ✅ Complete   |
+| Packaging (Docker)        | 2025-07-06 | 2025-07-06 | ⏳ In Progress|
 
 ---
 
