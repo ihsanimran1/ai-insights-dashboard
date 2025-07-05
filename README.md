@@ -64,3 +64,12 @@
 | **Sharing with non-technical users**                                                               | Built a Dockerfile to package all dependencies so the app can run with one command on any machine.                                  |
 
 ---
+## 🧠 Key Highlights for Portfolio
+✅ Full-stack architecture (Python, Node.js, AI).  
+✅ Private local AI (LLaMA via Ollama).  
+✅ Handles paywalls ethically by analyzing only (not showing articles).  
+Dockerized for cross-platform sharing.  (in progress)
+
+---
+## ⚠️ Disclaimer
+*This project is for educational and portfolio purposes only. It demonstrates technical skills in web scraping, AI integration, and full-stack development. Users are responsible for complying with the terms of service of any websites they access with this tool. The developer does not condone or encourage bypassing paywalls or violating copyright policies.*
