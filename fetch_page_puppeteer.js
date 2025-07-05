@@ -49,3 +49,11 @@ puppeteer.use(stealth);
         await browser.close();
     }
 })();
+// Usage: node fetch_page_puppeteer.js <URL>
+// Example: node fetch_page_puppeteer.js https://example.com/article
+// This script uses Puppeteer with stealth mode to fetch the article content from a given URL.
+// It handles paywalls and extracts the main article text, logging it to the console.
+// If the content is too short or missing, it logs a warning message.
+// Make sure to have Puppeteer and puppeteer-extra installed:
+// npm install puppeteer puppeteer-extra puppeteer-extra-plugin-stealth
+    
