@@ -87,42 +87,42 @@ Follow these steps to set up and run the AI Insight Dashboard on your machine:
 **Step 1: Clone the Repository**
 
 `git clone https://github.com/<your-username>/ai-insight-dashboard.git`  
-cd ai-insight-dashboard 
+`cd ai-insight-dashboard` 
 
 **Step 2: Set Up Python Virtual Environment**
 
-python3 -m venv venv  
-source venv/bin/activate  
+`python3 -m venv venv`  
+`source venv/bin/activate`  
 
 **Step 3: Install Python Dependencies**
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 **Step 4: Install Node.js Dependencies**
 
-npm install  
+`npm install`  
 
 **Step 5: Install Ollama**
 
 This project uses LLaMA 3 via Ollama, visit their website to download
 
 Start Ollama in the background:
-ollama serve
+`ollama serve`
 
 Pull the LLaMA 3 model:
-ollama run llama3
+`ollama run llama3`
 
 **Step 6: Start the App**
 
-streamlit run app.py
+`streamlit run app.py`
 
 **To stop running**
 
-Ctrl + C
+`ctrl + C`
 
 **To test archive.ph in your terminal**
 
-node fetch_page.js "article url"
+`node fetch_page.js "article url"`
 
 
 ![Auto fetch mode](assets/Auto%20fetch%20mode.png)
