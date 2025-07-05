@@ -118,3 +118,13 @@ streamlit run app.py
 
 Ctrl + C
 
+**To test archive.ph in your terminal**
+
+node fetch_page.js "article url"
+
+
+![Auto fetch mode](assets/Auto%20fetch%20mode.png)
+![URL mode](assets/URL%20mode.png)
+![PDF mode](assets/PDF%20mode.png)
+
+![Demo](assets/Demo.gif)
