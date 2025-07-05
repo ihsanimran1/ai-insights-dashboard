@@ -86,7 +86,7 @@ Follow these steps to set up and run the AI Insight Dashboard on your machine:
 
 **Step 1: Clone the Repository**
 
-git clone https://github.com/<your-username>/ai-insight-dashboard.git  
+`git clone https://github.com/<your-username>/ai-insight-dashboard.git`  
 cd ai-insight-dashboard 
 
 **Step 2: Set Up Python Virtual Environment**
