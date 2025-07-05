@@ -34,11 +34,11 @@
 
 | Task                      | Start Date | End Date   | Status       |
 |---------------------------|------------|------------|--------------|
-| Requirement Gathering     | 2025-07-01 | 2025-07-02 | ✅ Complete   |
-| Backend Scraper (Puppeteer)| 2025-07-02 | 2025-07-04 | ✅ Complete   |
-| Streamlit UI              | 2025-07-04 | 2025-07-06 | ✅ Complete   |
-| Ollama AI Integration     | 2025-07-06 | 2025-07-07 | ✅ Complete   |
-| Testing & Debugging       | 2025-07-07 | 2025-07-08 | ✅ Complete   |
+| Requirement Gathering     | 2025-07-01 | 2025-07-05 | ✅ Complete   |
+| Backend Scraper (Puppeteer)| 2025-07-02 | 2025-07-05 | ✅ Complete   |
+| Streamlit UI              | 2025-07-04 | 2025-07-05 | ✅ Complete   |
+| Ollama AI Integration     | 2025-07-06 | 2025-07-05 | ✅ Complete   |
+| Testing & Debugging       | 2025-07-07 | 2025-07-06 | ✅ Complete   |
 | Packaging (Docker)        | 2025-07-08 | 2025-07-10 | ⏳ In Progress|
 
 ---
