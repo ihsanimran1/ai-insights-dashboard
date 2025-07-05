@@ -4,7 +4,8 @@ import subprocess
 import ollama
 from bs4 import BeautifulSoup
 import random
-import fitz  # PyMuPDF for PDF text extraction
+import fitz  
+import pymupdf  # PyMuPDF for PDF text extraction
 
 # ⚡ Initialize Ollama client (running locally)
 ollama_client = ollama.Client(host="http://localhost:11434")
