@@ -28,19 +28,6 @@
 
 ---
 
-## 🗺 Project Roadmap
-
-| Task                      | Start Date | Due Date   | Status       | Assignee |
-|---------------------------|------------|------------|--------------|----------|
-| Requirement Gathering     | 2025-07-05 | 2025-07-06 | ✅ Complete   | You      |
-| Design and Prototyping    | 2025-07-06 | 2025-07-08 | 🚧 In Progress| You      |
-| Backend Development       | 2025-07-08 | 2025-07-12 | ⏳ Not Started| You      |
-| Frontend Development      | 2025-07-12 | 2025-07-15 | ⏳ Not Started| You      |
-| Testing and QA            | 2025-07-15 | 2025-07-18 | ⏳ Not Started| You      |
-| Deployment and Launch     | 2025-07-18 | 2025-07-20 | ⏳ Not Started| You      |
-
----
-
 ## 🛠 Technology Stack
 - **Backend:** Node.js (Puppeteer with archive.ph support)  
 - **Frontend:** Python (Streamlit framework)  
