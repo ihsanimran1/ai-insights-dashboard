@@ -1,0 +1,6 @@
+streamlit
+ollama
+beautifulsoup4
+requests
+PyMuPDF
+fitz
