@@ -3,28 +3,41 @@
 ## 📅 Initial Concept
 **Date:** 2025-05-07  
 **Time:** 10:00 AM  
-**Concept:** Build an AI-powered tool that fetches and analyzes financial news articles, PDFs, and URLs to provide critical reasoning insights for trading and consulting purposes.  
-**Goal:** Help users make informed financial and strategic decisions by delivering high-quality, structured AI analysis.  
+**Concept:** Build a local AI-powered tool that fetches and analyzes financial news articles, PDFs, and URLs to provide critical reasoning insights for trading and consulting purposes.  
+**Goal:** Help users make informed financial and strategic decisions by delivering high-quality, structured AI analysis, while keeping all AI computation for privacy.  
 
 ---
 
 ## 🔍 Market Research
 - **Competitor Analysis:** Researched existing tools like MarketMuse, Bloomberg Terminal, and Seeking Alpha. Found that they often require subscriptions.  
 - **Target Audience:** Financial analysts, traders, consultants, and business decision-makers.  
-- **Estimated Market Size:** $3.2 billion globally for financial analytics platforms (2025).  
+- **Estimated Market Size:** $13+ billion globally for financial analytics platforms (2025).  
 
 ---
 
 ## 🛠 Technical Requirements
-| Component            | Requirement                                     |
-|----------------------|--------------------------------------------------|
-| Programming Language | Python 3.9+                                     |
-| Frontend Framework   | Streamlit                                       |
-| Backend              | Node.js with Puppeteer and archive.ph fallback |
-| AI Model             | Ollama with LLaMA 3                             |
-| PDF Parsing          | PyMuPDF (fitz)                                  |
-| APIs                 | Google News RSS                                 |
-| Deployment Target    | AWS EC2 or Heroku                               |
+| Component            | Requirement                                             |
+|----------------------|---------------------------------------------------------|
+| Programming Language | Python 3.9+                                             |
+| Frontend Framework   | Streamlit                                               |
+| Backend              | Node.js with Puppeteer and archive.ph fallback          |
+| AI Model             | Ollama with LLaMA 3                                     |
+| PDF Parsing          | PyMuPDF (fitz)                                          |
+| APIs                 | BeautifulSoup for RSS; Puppeteer for dynamic websites   |
+| Deployment Target    | Docker container or local machine                       |
+
+---
+
+## 🗺 Project Roadmap
+
+| Task                      | Start Date | End Date   | Status       |
+|---------------------------|------------|------------|--------------|
+| Requirement Gathering     | 2025-07-01 | 2025-07-02 | ✅ Complete   |
+| Backend Scraper (Puppeteer)| 2025-07-02 | 2025-07-04 | ✅ Complete   |
+| Streamlit UI              | 2025-07-04 | 2025-07-06 | ✅ Complete   |
+| Ollama AI Integration     | 2025-07-06 | 2025-07-07 | ✅ Complete   |
+| Testing & Debugging       | 2025-07-07 | 2025-07-08 | ✅ Complete   |
+| Packaging (Docker)        | 2025-07-08 | 2025-07-10 | ⏳ In Progress|
 
 ---
 
@@ -36,3 +49,18 @@
 - **Web Scraping:** BeautifulSoup  
 - **Version Control:** GitHub  
 
+---
+
+## 🪵 Challenges & Solutions
+
+| **Challenge**                                                                                      | **Solution**                                                                                                                       |
+|-----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| **Paywalled Articles (e.g., Bloomberg, WSJ)**                                                      | Integrated `archive.ph` fallback to snapshot paywalled pages and extract content safely.                                            |
+| **Anti-bot Protections (Cloudflare, dynamic JS rendering)**                                        | Used `puppeteer-extra-plugin-stealth` to bypass anti-bot measures and mimic real browser behavior.                                  |
+| **Streamlit UI looked plain and unpolished**                                                       | Designed a custom CSS style with modern buttons and clean layout for better UX.                                                     |
+| **Local AI (Ollama) not working in Streamlit Community Cloud**                                     | Shifted to a fully local architecture and documented the setup so users can run the app offline.                                    |
+| **Long articles exceeding LLaMA token limits**                                                     | Added automatic truncation and summarization pipelines to preprocess large inputs for AI analysis.                                  |
+| **PDF text extraction from scanned documents failed**                                              | Switched to PyMuPDF for better text parsing; flagged unsupported scanned PDFs with a user warning.                                  |
+| **Sharing with non-technical users**                                                               | Built a Dockerfile to package all dependencies so the app can run with one command on any machine.                                  |
+
+---
