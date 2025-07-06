@@ -2,7 +2,7 @@
 
 ## 📅 Initial Concept
 **Concept:** Build a local AI-powered tool that fetches and analyzes financial news articles, PDFs, and URLs to provide critical reasoning insights for trading and consulting purposes.  
-**Goal:** Help users make informed financial and strategic decisions by delivering high-quality, structured AI analysis, while keeping all AI computation for privacy.  
+**Goal:** Help users make informed financial and strategic decisions by delivering high-quality, structured AI analysis, while keeping all AI computation local for privacy.  
 
 ![Demo](assets/APP-demo.gif)
 
