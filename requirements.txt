@@ -2,5 +2,5 @@ streamlit
 ollama
 beautifulsoup4
 requests
-PyMuPDF
+pymupdf==1.22.5
 fitz
